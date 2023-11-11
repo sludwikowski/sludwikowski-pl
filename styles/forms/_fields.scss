@@ -1,0 +1,15 @@
+input,
+textarea,
+.form-control,
+.form-box input,
+.form-box textarea {
+  &::placeholder {
+    color: $heading-color;
+  }
+}
+
+input[type='search'] {
+  &::-webkit-search-decoration {
+    display: none;
+  }
+}
